@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables css</title>
+    <style>
+        :root{
+            --helo: rgb(244, 169, 169);
+            --color2: rgb(163, 231, 170);
+            --color: rgb(250, 153, 243);
+            --size: 20px ;
+            --oop:0.3;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+        }
+        .nav{
+            /* opacity:var(--oop) */
+         background-color: var(--color);
+
+         /* display: flex; */
+            /* background-color: red; */
+        }
+
+        ul :first-child{
+            background-color:var(--helo)
+        }
+        ul :last-child{
+            background-color: var(--helo)
+        }
+        ul > li{
+            padding: var(--size);
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>class</li>
+            <li>name</li>
+            <li>id</li>
+        </ul>
+    </div>
+    <div class="bajar">Lorem ipsum dolor sit amet.</div>
+</body>
+</html>

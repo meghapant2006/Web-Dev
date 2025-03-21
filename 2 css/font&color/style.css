@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Delius&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap');
+
+* {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-weight: 500;
+  text-decoration: double;
+  font-size: 20px;
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: chartreuse;
+  /* text-decoration-style: dotted; */
+  text-decoration-thickness: 7px;
+  text-indent: 45px;
+}
+
+.megha {
+  border: 2px solid red;
+  text-overflow: clip;
+  word-break: break-all;
+
+}

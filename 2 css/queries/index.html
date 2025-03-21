@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      /* body {
+        background-color: red;
+      }
+      @media ( max-width: 600px) {
+        body {
+          background-color: blue;
+        }
+        .pant{
+            background-color: green;
+            flex-direction: column;
+        }
+      }
+      .megha{
+          display: flex;
+      }
+      .pant{
+            background-color: rgb(212, 54, 159);
+            height: 344px;
+            width: 344Px;
+            margin: 5px;
+
+      }
+      .red{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+        }
+        @media (min-width: 600px){
+            .red{
+                background-color: blue;
+            }
+        } */
+        body {
+            background-color: red;
+        }
+
+        @media screen and (orientation: portrait) {
+            body{
+                border: 2px solid purple;
+            }
+        }
+
+        @media only screen and (max-width: 455px){
+            body{
+
+                background-color: blue;
+            }
+            
+            .boxes{
+                flex-direction: column;
+            }
+        }
+        
+        /* @media not|only mediatype and (expressions) {
+            CSS-Code;
+        } */
+
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: steelblue;
+            padding: 3px;
+            margin: 3px;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+      heyy i am 
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+
+  </body>
+</html> 

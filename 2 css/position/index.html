@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css position</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .mannu1 {
+        background: orange;
+        position:sticky;
+        top: 0;
+        left: 0;
+        /* position: fixed; */
+        margin: 0;
+        padding: 0;
+        /* position: relative; */
+        /* z-index: 1;  */
+        /* top:0px;            
+        left: 10px; */
+        
+      }
+      .mannu2 {
+        background: blue;
+        filter: invert();
+
+        /* position: absolute; */
+        /* z-index: 1; */
+        /* top: 34px;
+        left: 0px; */
+      }   
+      .mannu3 {
+        background: green;
+        
+      }
+      .mannu4 {
+        background: purple;
+        /* position: fixed; */
+      }
+      .mannu {
+        border: 1px solid black;
+        /* background: pink */
+        height: 140px;
+        width: 890vw;
+        margin: 3px;
+        padding: 3px;
+      }
+      /* .parent{
+        padding: 943px;
+        margin: 34px;
+        height: 1011vh;
+        border: 2px solid black;
+        position: absolute;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="mannu mannu1"></div>
+      <div class="mannu mannu2"></div>
+      <div class="mannu mannu3"></div>
+      <div class="mannu mannu4"></div>
+    </div>
+  </body>
+</html>
+

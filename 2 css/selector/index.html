@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+</head>
+<style>
+    /* element selector */
+    div p {
+        color: blue;
+        background-color: yellow;
+    }
+
+    /* class selector */
+    .pant {
+        color: blue;
+        /* background-color: pink; */
+    }
+    /* id selector */
+    #bajaj{
+        color: pink;
+
+    }
+
+    /* universal selector */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* pseudo selector  */
+
+
+    a:visited {
+        color: blue;
+    }
+
+    a:link {
+        color: pink;
+    }
+
+    a:active {
+        background-color: orange;
+    }
+    a:hover{
+        background-color: blue;
+    }
+    p:first-child{
+        background-color: red;
+    }
+</style>
+
+<body>
+    <div class="one">
+         <p>i am first </p>
+         <p id="bajaj">i am second</p>
+    </div>
+    <div class="pant">
+        <article>
+            hey i am megha
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptas error quod al delectus dolores.
+            </p>
+            <div>
+                <a href="https://www.google.com"> go to Google</a>
+                <a href="https://www.facebook.com"> go to facebook</a>
+            </div>
+        </article>
+    </div>
+</body>
+
+</html>

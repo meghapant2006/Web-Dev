@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float&clear</title>
+    <style>
+        img{
+            float: left;
+        }
+        .cards{
+            border: 2px solid rgb(0, 0, 0);
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid green;
+        } 
+        .card:nth-child(2){
+            background-color: aquamarine;
+            clear: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" height="200px">
+        <div class="card">
+            <p>Lorem ipsum yar same useke jaysa rakhooo     problrm css me nahi class mae hai dolor sit amet consectetur adipisicing elit. Facilis magnam ad ullam corporis ut sapienm Recusandae pariatur eveniet sed voluptatest laudantium aliquid unde nemo illo?</p>
+        </div>
+
+        <div class="card">Card 2</div>
+        <div class="card">Card 3 </div>
+    </div>
+</body>
+</html>

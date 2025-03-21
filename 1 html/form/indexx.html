@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <input typ<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Form Example</title>
+            <style>
+                body {
+                    background-color: #f0f8ff;
+                    font-family: Arial, sans-serif;
+                }
+                form {
+                    background-color: #e6f7ff;
+                    padding: 20px;
+                    border-radius: 10px;
+                    max-width: 400px;
+                    margin: auto;
+                }
+                label {
+                    display: block;
+                    margin-bottom: 8px;
+                    color: #333;
+                }
+                input[type="text"],
+                input[type="password"],
+                input[type="date"] {
+                    width: 100%;
+                    padding: 8px;
+                    margin-bottom: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                input[type="radio"] {
+                    margin-right: 5px;
+                }
+                input[type="submit"] {
+                    background-color: white;
+                    color: #333;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: background-color 0.3s, color 0.3s;
+                }
+                input[type="submit"]:hover {
+                    background-color: #007bff;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <form action="/submit" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+        
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+        
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+        </html>
+    </form>
+</html>
